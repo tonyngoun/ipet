@@ -1,0 +1,58 @@
+td {
+  padding: 1px solid black;
+  padding: 10px;
+  border: 1px solid black;
+  width: 280px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px 10px;
+}
+
+tr:hover {
+  background-color: #8a8a8a;
+}
+
+.table {
+  background-color: #D3D3D3;
+  color: #000000;
+  font-weight: bold;
+  
+
+}
+
+.Updatebtn {
+  margin: 0px 10px;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: blue;
+  font-size: 15px;
+  color: #F8F8FF;
+}
+.Addbtn {
+  margin: 0px 10px;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: blue;
+  font-size: 15px;
+  color: #F8F8FF;
+}
+
+.container {
+  border: solid 1px black; 
+  display: flex; 
+  justify-content: space-evenly;
+}
+
+.input-content {
+  display: flex; 
+  flex-direction: column;
+}
+.link {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
