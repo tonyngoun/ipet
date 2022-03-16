@@ -58,6 +58,7 @@ return(
                     <tr key={index}>
                         <td> {pet.name} </td>
                         <td> {pet.type} </td>
+                        <td><Link to={`/pet/${pet._id}`}>Details </Link> | <Link to={`/pet/edit/${pet._id}`}>Edit</Link></td>
                     </tr>
                     ))
         

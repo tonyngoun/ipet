@@ -41,6 +41,8 @@ tr:hover {
   color: #F8F8FF;
 }
 
+
+/**********NEW PET *********************/
 .container {
   border: solid 1px black; 
   display: flex; 
@@ -55,4 +57,13 @@ tr:hover {
   position: absolute;
   right: 15px;
   top: 15px;
+}
+
+
+/**********ONE PET *********************/
+
+
+.detail-content {
+  border: 1px solid #000000;
+
 }
