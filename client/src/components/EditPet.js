@@ -65,7 +65,7 @@ const EditPet = (props) => {
         <div>
 
             <header>
-                <h1> The Pet Shelter </h1>
+                <h1> Adopt a Pet </h1>
                 <h3> Update {name} info </h3>
                 <Link to={"/home"} className="link" >back to home page</Link>
             </header>

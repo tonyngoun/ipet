@@ -35,7 +35,7 @@ const AllPets = (props) => {
 return(
         <div>
             <header>
-            <h1 style={{fontSize:"45px"}}> The Pet Shelter</h1>
+            <h1 style={{fontSize:"45px"}}> Adopt a Pet</h1>
             <h2 style={{marginLeft:"5px"}}>These Pets are looking for a good home</h2>
             {/* path to our NewPet component as set in the Router in app.js */}
             <Link to={"/new"} className="link" ><u >add a pet to the shelter</u></Link>

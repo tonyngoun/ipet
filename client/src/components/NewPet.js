@@ -14,6 +14,7 @@ const NewPet = (props) => {
     const [firstskill, setFirstSkill] = useState("");
     const [secondskill, setSecondSkill] = useState("");
     const [thirdskill, setThirdSkill] = useState("");
+    const [likes, setlikes] = useState("");
 
 
     const submitHandler = (e)=>{
@@ -28,6 +29,7 @@ const NewPet = (props) => {
             firstskill,
             secondskill,
             thirdskill,
+            likes,
             
         },
 
@@ -45,14 +47,14 @@ const NewPet = (props) => {
             console.log("err.response.data:", err.response);
 
             setErrors(err.response.data.errors);
-        })
-    }
+        });
+    };
 
     return(
         <div>
 
             <header>
-                <h1> The Pet Shelter </h1>
+                <h1> Adopt a Pet</h1>
                 <h3> Know a pet needing a new home? </h3>
             </header>
                 <Link to={"/home"} className="link" >back to home page</Link>
@@ -95,6 +97,7 @@ const NewPet = (props) => {
 
                     <label htmlFor= "thirdskill">Skill 3</label><br/>
                     <input value={thirdskill} onChange={(e)=>setThirdSkill(e.target.value)} name="thirdskill" type="text" /><br/>
+                
                 </div>
 <br/>
             
