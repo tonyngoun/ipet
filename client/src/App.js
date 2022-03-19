@@ -13,6 +13,8 @@ function App() {
   return (
     <div className="App">
       <Router>
+
+        
       <AllPets path="/home" />
       <NewPet path="/new" />
       <OnePet path="/pet/:id" />
